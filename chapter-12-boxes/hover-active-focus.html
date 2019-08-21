@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hover Active Focus</title>
+		<style type="text/css">
+			input {
+				padding: 6px 12px 6px 12px;
+				border: 1px solid yellow;
+				color: black;}
+			input.submit:hover {
+				background-color: blue;}
+			input.submit:active {
+				background-color: darkmagenta;}
+			input.text {
+				color: green;}
+			input.text:focus {
+				color:red;}
+		</style>
+	</head>
+	<body>
+		<form>
+			<input type="text" class="text" value="Enter email address..." />
+			<input type="submit" class="submit" />
+		</form>
+	</body>
+</html>
