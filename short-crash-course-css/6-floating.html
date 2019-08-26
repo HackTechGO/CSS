@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>my CSS</title>
+
+	<style type="text/css">
+		.underlined {
+			text-decoration: underline;
+		}
+
+		#first-section {
+			color: blue;
+			background-color: #58FAF4;
+			width: 200px;
+			float: left;
+			/* The float property specifies how an element should float.*/
+		}
+
+		#second-section {
+			background-color: yellow;
+			width: 200px;
+			float: right;
+		}
+
+		/*Do not allow floating elements on the left or the right side of a specified <p> element*/
+		.clear-float {
+			clear: both;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="first-section">
+		<p>LEFT-LEFT.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo fuga iusto porro numquam impedit ab
+			delectus.
+			Quaerat error dignissimos cum, delectus ea quisquam molestias voluptatum nam voluptatibus unde, consequatur
+			ad!</p>
+
+		<p>LEFT-LEFT.Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dignissimos labore iure ea nobis
+			optio,
+			officia amet dicta accusamus maiores eligendi aperiam aliquid tenetur provident. Dolores error aliquam
+			nostrum ipsam.</p>
+	</div>
+
+	<div id="second-section">
+
+		<p>RIGHT-RIGHT.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem est, vel, rerum animi, laboriosam
+			tempora
+			quos et cupiditate sapiente placeat atque! Iusto omnis dignissimos sed, ducimus aut cum nobis culpa.<span
+				class="underlined">This text is underlined</span></p>
+
+		<p>RIGHT-RIGHT. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+	</div>
+
+	<div class="clear-float">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta vel cumque laborum quidem
+		quaerat repudiandae dolor consequuntur, voluptatem culpa quibusdam eius omnis modi iste quo odio, quasi
+		assumenda molestias incidunt?</div>
+
+	<p>This paragraph is not floated. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eos accusantium
+		ducimus ex dolor non consectetur assumenda quos sunt praesentium provident quod explicabo at enim sapiente
+		dolorem optio, impedit laudantium?</p>
+
+</body>
+
+</html>
