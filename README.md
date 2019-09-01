@@ -9,5 +9,6 @@ Cascading Style Sheet
     <li><a href="https://specificity.keegan.st/">A visual way to understand CSS specificity: Specificity Calculator</a></li>
 <li><a href="https://www.cssfontstack.com/">CSS Font Stack</a></li>
 <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+<li><a href="http://www.csszengarden.com/">A demonstration of what can be accomplished through CSS-based design</a></li>
 
 </ul
