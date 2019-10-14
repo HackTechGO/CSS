@@ -1,0 +1,42 @@
+body {
+	background-color: #e3ecfd;
+}
+header {
+	text-align: center;
+	background-color: rgba(0, 102, 255, 0.712);
+}
+header h3 {
+	text-transform: uppercase;
+}
+.highlight {
+	color: red;
+}
+.container {
+	height: 90%;
+	width: auto;
+}
+.box1 {
+	border: solid 1px green;
+}
+.box1 ul {
+	list-style-type: lower-alpha;
+}
+.box2 {
+	border: solid 3px blue;
+	text-align: right;
+}
+.box3 {
+	text-align: center;
+	border: dashed 1px green;
+	border-radius: 25px;
+}
+.box3 ul {
+	list-style: none;
+}
+.box4 {
+	border-style: double;
+}
+.box {
+	height: 100%;
+	width: auto;
+}
